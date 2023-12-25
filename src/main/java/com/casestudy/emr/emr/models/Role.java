@@ -28,7 +28,7 @@ public class Role {
      */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
     /**
      * The name of the role.
@@ -57,7 +57,7 @@ public class Role {
      * 
      * @return The id of the role.
      */
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -66,7 +66,7 @@ public class Role {
      * 
      * @param id The id of the role.
      */
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

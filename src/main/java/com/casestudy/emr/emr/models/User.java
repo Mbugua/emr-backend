@@ -42,12 +42,6 @@ public class User {
     private Set<Role> roles = new HashSet<>();
 
     /**
-     * Default constructor.
-     */
-    public User() {
-    }
-
-    /**
      * Constructor that sets the username, email, and password fields.
      * 
      * @param username The user's username.
